@@ -1,4 +1,7 @@
-language: javascript
+language: node_js
+
+node_js:
+  - 12
 
 services:
   - docker
