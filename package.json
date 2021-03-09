@@ -5,7 +5,17 @@
   "repository": "git@github.com:ddereszkiewicz/TravisCITest.git",
   "author": "Dawid Dereszkiewicz <72603663+ddereszkiewicz@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest --forceExit"
+    
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   }
 }
