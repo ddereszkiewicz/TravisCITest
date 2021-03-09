@@ -1,0 +1,32 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\deres\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\deres\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\deres\bin;C:\Program Files\AdoptOpenJDK\jdk-15.0.2.7-hotspot\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs;C:\Program Files\Graphviz\bin;C:\Users\deres\AppData\Local\Microsoft\WindowsApps;C:\Users\deres\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2020.3.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.2\bin;C:\ProgramData\deres\GitHubDesktop\bin;C:\Users\deres\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\deres\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:96361:59)
+      at Object.<anonymous> (C:\Users\deres\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:88636:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\deres\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\deres\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
